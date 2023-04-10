@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.page-love {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #FCFFFC;
+  justify-content: center;
+}
+
+  .page-love p{
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .page-love h1{
+    padding-top:20px;
+  }
+
+  .page-love img{
+    width: 300px;
+  }
+ 
+@media screen and (max-width:920px) {
+  .page-love {
+    max-width:100%;
+  }
+  page-love p{
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+  }
+}
