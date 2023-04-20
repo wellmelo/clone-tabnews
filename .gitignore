@@ -1,1 +1,2 @@
-Criei o .gitignore
+.next
+node_modules
